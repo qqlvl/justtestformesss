@@ -1,0 +1,13 @@
+{
+    "vars": {
+      "name": "neal",
+      "twitter": "https://x.com/",
+      "ca": "No ca yet.",
+      "domain": "solkitten.fun",
+      "ticker": "NEAL"
+    },
+    "websites": {
+      "neal.fun": "${domain}"
+    }
+  }
+  
