@@ -2,7 +2,6 @@ package http_server
 
 import (
 	"bytes"
-	"github.com/sirupsen/logrus"
 	"io"
 	"net/http"
 	"net/url"
@@ -13,6 +12,8 @@ import (
 	"website_proxier/encoding"
 	"website_proxier/proxy_pool"
 	"website_proxier/siteconfig"
+
+	"github.com/sirupsen/logrus"
 )
 
 var cacheRelatedHeaders = []string{
@@ -398,7 +399,7 @@ func StartServer() {
 
 	http.HandleFunc("/", HandleRequest)
 	logrus.Info("Starting server")
-	err := http.ListenAndServe(":6688", nil)
+	err := http.ListenAndServe(":8080", nil)
 	if err != nil {
 		logrus.WithError(err).Fatal("Error starting server")
 	}
