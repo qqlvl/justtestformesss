@@ -1,0 +1,13 @@
+{
+  "vars": {
+    "name": "wormholepc",
+    "twitter": "https://x.com/",
+    "ca": "not yet",
+    "domain": "wormholepc.ai"
+  },
+  "websites": {
+    "www.w.ai": "${domain}",
+    "app.w.ai": "app.${domain}",
+    "releases.w.ai": "releases.${domain}"
+  }
+}

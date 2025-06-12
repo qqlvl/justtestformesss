@@ -1,0 +1,32 @@
+{
+  "replacements": [
+    {
+      "from": "href=\"https://docs.w.ai\"",
+      "to": "href=\"https://docs.w.ai\" style=\"display:none;\""
+    },
+    {
+      "from": "www.w.ai",
+      "to": "${domain}"
+    },
+    {
+      "from": "w.ai",
+      "to": "${domain}"
+    },
+    {
+      "from": "W.AI",
+      "to": "${name}"
+    },
+    {
+      "from": "WOMBO",
+      "to": "${name}"
+    },
+    {
+      "from": "href=\"/\"",
+      "to": "href=\"/\" style=\"display:none;\""
+    },
+    {
+      "from": "href=\"/auth\"",
+      "to": "href=\"/auth\" style=\"display:none;\""
+    }
+  ]
+}

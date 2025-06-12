@@ -1,0 +1,19 @@
+{
+  "resp_headers_override": {
+    "Access-Control-Allow-Origin": "*"
+  },
+  "replacements": [
+    {
+      "from": "www.w.ai",
+      "to": "${domain}"
+    },
+    {
+      "from": "w.ai",
+      "to": "${domain}"
+    },
+    {
+      "from": "W.AI",
+      "to": "${name}"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "vars": {
+    "name": "sciproofai",
+    "twitter": "https://x.com/",
+    "ca": "CA is not ready",
+    "domain": "sciproofai.io",
+    "ticker": "SCP"
+  },
+  "websites": {
+    "yesnoerror.com": "${domain}"
+  }
+}

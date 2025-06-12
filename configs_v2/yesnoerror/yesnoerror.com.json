@@ -1,0 +1,100 @@
+{
+  "replacements": [
+    {
+      "from": "https://x.com/mattprd",
+      "to": "${twitter}"
+    },
+    {
+      "from": "https://x.com/yesnoerror",
+      "to": "${twitter}"
+    },
+    {
+      "from": "https://t.me/yes_no_error",
+      "to": "https://t.me/"
+    },
+    {
+      "from": "https://x.com/ResearchHub/status/1877143071118197180",
+      "to": "https://x.com/ResearchHub"
+    },
+    {
+      "from": "https://x.com/opencampus_xyz/status/1877844595952046368",
+      "to": "https://x.com/opencampus_xyz"
+    },
+    {
+      "from": "https://x.com/bioprotocol/status/1878925563513184750",
+      "to": "https://x.com/bioprotocol"
+    },
+    {
+      "from": "https://x.com/akashnet_/status/1881791595898454506",
+      "to": "https://x.com/akashnet_"
+    },
+    {
+      "from": "href=\"https://t.me/\"",
+      "to": "href=\"https://t.me/\" style=\"display:none;\""
+    },
+    {
+      "from": "class=\"text-gray-500 text-sm\"",
+      "to": "class=\"text-gray-500 text-sm\" style=\"display:none;\""
+    },
+    {
+      "from": "text-center\"><img",
+      "to": "text-center\" style=\"display:none;\"><img"
+    },
+    {
+      "from": "https://jup.ag/swap/SOL-YNE",
+      "to": "https://pump.fun/coin/${ca}"
+    },
+    {
+      "from": "Buy on Jupiter",
+      "to": "Buy on Pump.fun"
+    },
+    {
+      "from": "mattprd",
+      "to": "${name}"
+    },
+    {
+      "from": "yesnoerror",
+      "to": "${name}"
+    },
+    {
+      "from": "YESNOERROR",
+      "to": "${name:upper}"
+    },
+    {
+      "from": "YesNoError",
+      "to": "${name:title:rightpad(10)}"
+    },
+    {
+      "from": "YNE",
+      "to": "${ticker}"
+    },
+    {
+      "from": "7D1iYWfhw2cr9yBZBFE6nZaaSUvXHqG5FizFFEZwpump",
+      "to": "${ca}"
+    },
+    {
+      "from": "text-xs\">View on GeckoTerminal",
+      "to": "text-xs\" style=\"display:none;\">View on GeckoTerminal"
+    },
+    {
+      "from": "<span class=\"text-gray-600\">•</span>",
+      "to": "<span class=\"text-gray-600\" style=\"display:none;\">•</span>"
+    },
+    {
+      "from": "class=\"p-4 bg-gray-800/60 rounded-lg\"",
+      "to": "class=\"p-4 bg-gray-800/60 rounded-lg\" style=\"display:none;\""
+    },
+    {
+      "from": "class=\"hidden md:flex items-center gap-6\"",
+      "to": "class=\"hidden md:flex items-center gap-6\" style=\"display:none;\""
+    },
+    {
+      "from": "title=\"Sign in to start a new audit\"",
+      "to": "title=\"Sign in to start a new audit\" style=\"display:none;\""
+    },
+    {
+      "from": "class=\"bg-gradient-to-br from-purple-600/30 to-blue-600/30 border border-purple-500/30 rounded-xl p-4 backdrop-blur-sm mb-4 relative overflow-hidden z-10\"",
+      "to": "class=\"bg-gradient-to-br from-purple-600/30 to-blue-600/30 border border-purple-500/30 rounded-xl p-4 backdrop-blur-sm mb-4 relative overflow-hidden z-10\" style=\"display:none;\""
+    }
+  ]
+}
