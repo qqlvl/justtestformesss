@@ -399,7 +399,7 @@ func StartServer() {
 
 	http.HandleFunc("/", HandleRequest)
 	logrus.Info("Starting server")
-	err := http.ListenAndServe(":8080", nil)
+	err := http.ListenAndServe(":6688", nil)
 	if err != nil {
 		logrus.WithError(err).Fatal("Error starting server")
 	}
